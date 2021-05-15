@@ -7,11 +7,11 @@ html, body {
     height: 100%;
     margin: 0;
     font-family: 'JetBrains Mono', monospace;
-    /* background-color: var(--background-color); */
+    background-color: var(--background-color);
 }
 
 nav {
-    /* background-color: var(--header-bkgrnd-color); */
+    background-color: var(--header-bkgrnd-color);
     background-color: #003366;
     margin: 0;
     position: fixed;
