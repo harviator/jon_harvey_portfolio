@@ -41,6 +41,15 @@ h1 {
     letter-spacing: 10px;
 }
 
+.projects-grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    width: 100%;
+    margin: 0;
+}
+
 #about {
     display: flex;
     flex-direction: column;
