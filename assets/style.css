@@ -74,17 +74,7 @@ footer h3 {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* margin: 20px; */
 }
-
-/* .projects-grid {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 450px));
-    grid-gap: 20px;
-    width: 100%;
-    margin: 0;
-} */
 
 .projects-grid a {
 
