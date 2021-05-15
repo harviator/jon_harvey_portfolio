@@ -15,7 +15,6 @@ html, body {
 
 nav {
     background-color: var(--header-bkgrnd-color);
-    background-color: #003366;
     margin: 0;
     position: fixed;
     top: 0;
