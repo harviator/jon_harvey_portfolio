@@ -70,6 +70,7 @@ footer h3 {
 
 .projects-grid {
     display: flex;
+    flex-wrap: wrap;
     justify-items: center;
     align-items: center;
     width: 100%;
