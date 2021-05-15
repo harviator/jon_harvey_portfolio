@@ -2,6 +2,7 @@
     --background-color: #262626;
     --header-bkgrnd-color: #003366;
     --projects-bkgrnd-color: #ecf2f9;
+    --orange-text: #ff6600;
 }
 
 html, body {
@@ -65,7 +66,7 @@ h1 {
 }
 
 .projects-grid a:hover .material-icons {
-    color: #ff6600;
+    color: var(--orange-text);
     display: inline-block;
 }
 
