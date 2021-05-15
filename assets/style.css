@@ -102,6 +102,15 @@ footer h3 {
     display: inline-block;
 }
 
+.profile {
+    display: flex;
+}
+
+.profile a {
+    padding: 10px;
+    text-decoration: none;
+}
+
 #about {
     display: flex;
     flex-direction: column;
