@@ -35,6 +35,11 @@ nav a {
     
 }
 
+nav a:hover {
+    background-color: var(--background-color);
+    color: var(--orange-text)
+}
+
 h1 {
     font-family: "Orbitron", sans-serif;
     color: #fff;
