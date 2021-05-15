@@ -57,10 +57,11 @@ h2 {
     padding-bottom: 30px;
 }
 
+
 .projects-grid {
     display: grid;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
     width: 100%;
     margin: 0;
@@ -72,6 +73,12 @@ h2 {
     border-radius: 5px;
     box-shadow: 2px 4px 7px var(--background-color);
     text-decoration: none;
+}
+
+.projects-grid a img {
+    min-width: 100px;
+    max-height: 200px;
+    width: auto;
 }
 
 .material-icons {
