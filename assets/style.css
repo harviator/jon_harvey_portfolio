@@ -60,6 +60,7 @@ h2 {
 footer {
     display: block;
     padding: 20px;
+    background: linear-gradient(to bottom, var(--header-bkgrnd-color) 0%, var(--background-color) 50%);
 }
 
 .projects-grid {
