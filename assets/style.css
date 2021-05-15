@@ -44,10 +44,18 @@ h1 {
 .projects-grid {
     display: grid;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
     width: 100%;
     margin: 0;
+}
+
+.projects-grid a {
+    background-color: var(--header-bkgrnd-color);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 4px 7px var(--background-color);
+    text-decoration: none;
 }
 
 #about {
