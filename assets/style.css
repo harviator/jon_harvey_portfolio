@@ -3,6 +3,7 @@
     --header-bkgrnd-color: #003366;
     --projects-bkgrnd-color: #ecf2f9;
     --orange-text: #ff6600;
+    --blue-text: #0080ff;
 }
 
 html, body {
@@ -38,6 +39,10 @@ nav a {
 nav a:hover {
     background-color: var(--background-color);
     color: var(--orange-text)
+}
+
+nav a:active {
+    border: 2px solid 
 }
 
 h1 {
@@ -84,7 +89,7 @@ h1 {
     text-align: center;
     margin: 0;
     height: 100vh;
-    color: #0080ff;
+    color: var(--blue-text);
 }
 
 #work {
