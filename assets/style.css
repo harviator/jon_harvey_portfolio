@@ -69,13 +69,21 @@ footer h3 {
 }
 
 .projects-grid {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+/* .projects-grid {
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 450px));
     grid-gap: 20px;
     width: 100%;
     margin: 0;
-}
+} */
 
 .projects-grid a {
     background-color: var(--header-bkgrnd-color);
@@ -146,7 +154,7 @@ footer h3 {
     color: bl#000;
 }
 
-#img1 {
+/* #img1 {
     max-height: 300px;
     width: auto;
-}
+} */
