@@ -86,7 +86,6 @@ footer h3 {
 }
 
 .projects-grid a img {
-    min-width: 100px;
     max-height: 200px;
     width: auto;
 }
@@ -148,4 +147,6 @@ footer h3 {
 
 #img1 > img {
     /* flex: 2 0 0; */
+    width: auto;
+    height: auto;
 }
