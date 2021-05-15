@@ -58,6 +58,17 @@ h1 {
     text-decoration: none;
 }
 
+.material-icons {
+    font-size: 15px;
+    color: #fff;
+    display: none;
+}
+
+.projects-grid a:hover .material-icons {
+    color: #ff6600;
+    display: inline-block;
+}
+
 #about {
     display: flex;
     flex-direction: column;
