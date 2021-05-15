@@ -1,0 +1,11 @@
+:root {
+    --background-color: #262626;
+    --header-bkgrnd-color: #0003366
+}
+
+* {
+    height: 100%;
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+    background-color: var(--background-color);
+}
