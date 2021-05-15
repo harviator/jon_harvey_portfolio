@@ -105,12 +105,21 @@ footer h3 {
 .profile {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .profile a {
     padding: 10px;
     text-decoration: none;
     color: #fff;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.profile a:hover {
+    border: 2px solid;
+    border-color: var(--orange-text);
+    border-radius: 3px;
+    color: var(--blue-text);
 }
 
 #about {
