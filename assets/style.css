@@ -42,7 +42,7 @@ nav a:hover {
 }
 
 nav a:active {
-    border: 2px solid 
+    border: 2px solid var(--blue-text);
 }
 
 h1 {
