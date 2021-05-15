@@ -53,6 +53,10 @@ h1 {
     letter-spacing: 10px;
 }
 
+h2 {
+    padding-bottom: 30px;
+}
+
 .projects-grid {
     display: grid;
     justify-items: center;
