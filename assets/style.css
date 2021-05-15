@@ -3,19 +3,21 @@
     --header-bkgrnd-color: #003366;
 }
 
-* {
+html, body {
     height: 100%;
     margin: 0;
     font-family: 'JetBrains Mono', monospace;
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
 }
 
-header {
-    background-color: var(--header-bkgrnd-color);
+nav {
+    /* background-color: var(--header-bkgrnd-color); */
+    background-color: #003366;
     margin: 0;
     position: fixed;
     top: 0;
     width: 100%;
+    border: 5px solid #262626;
 }
 
 nav {
@@ -28,4 +30,15 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     padding: 20px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top right, #404040 0%, var(--background-color) 100%);
+    text-align: center;
+    margin: 0;
+    height: 100vh;
 }
