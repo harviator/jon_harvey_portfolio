@@ -122,6 +122,11 @@ footer h3 {
     color: var(--blue-text);
 }
 
+.profile a:active {
+    color: var(--orange-text);
+    border: 2px solid var(--blue-text);
+}
+
 #about {
     display: flex;
     flex-direction: column;
