@@ -63,6 +63,11 @@ footer {
     background: linear-gradient(to bottom, var(--header-bkgrnd-color) 0%, var(--background-color) 50%);
 }
 
+footer h3 {
+    color: var(--orange-text);
+    text-align: center;
+}
+
 .projects-grid {
     display: grid;
     justify-items: center;
