@@ -1,6 +1,7 @@
 :root {
     --background-color: #262626;
     --header-bkgrnd-color: #003366;
+    --projects-bkgrnd-color: #ecf2f9;
 }
 
 html, body {
@@ -49,4 +50,12 @@ h1 {
     text-align: center;
     margin: 0;
     height: 100vh;
+    color: #0080ff;
+}
+
+#work {
+    background-color: var(--projects-bkgrnd-color);
+    padding: 30px 50px;
+    text-align: center;
+    color: bl#000;
 }
