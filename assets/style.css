@@ -71,7 +71,7 @@ footer h3 {
 .projects-grid {
     display: grid;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 450px));
     grid-gap: 20px;
     width: 100%;
     margin: 0;
@@ -147,6 +147,6 @@ footer h3 {
 }
 
 #img1 {
-    max-height: 400px;
+    max-height: 300px;
     width: auto;
 }
