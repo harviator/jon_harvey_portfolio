@@ -76,7 +76,6 @@ footer h3 {
 }
 
 .projects-grid a {
-    flex: 0 0 0;
     background-color: var(--header-bkgrnd-color);
     color: #fff;
     border-radius: 5px;
@@ -154,13 +153,15 @@ footer h3 {
     color: bl#000;
 }
 
-#img1 {
+/* Allows the first image to grow to meet acceptance criteria */
+#largeImg {
     flex: 2 0 0;
 }
 
-#img1 > img {
-    max-width: auto !important;
-    max-height: auto !important;
+#img1 {
+    min-width: 100%;
+    object-fit: cover;
+    
 }
 /* media query to make navbar and footer responsive at a smaller screen size */
 @media screen and (max-width: 500px) {
