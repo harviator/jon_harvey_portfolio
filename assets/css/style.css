@@ -51,11 +51,11 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 10px;
 }
-
+/* gave the h2 tag some exta space on the bottom */
 h2 {
     padding-bottom: 30px;
 }
-
+/* stylling for the footer */
 footer {
     display: block;
     padding: 20px;
@@ -66,7 +66,7 @@ footer h3 {
     color: var(--orange-text);
     text-align: center;
 }
-
+/* flexbox grid and styling. used flexbox to make the grid responsive without a media query.  tried to use css grid, but i need more experience with it as I was unable to get it to do what I wanted. */
 .projects-grid {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +104,12 @@ footer h3 {
     color: #fff;
     display: none;
 }
-
+/* styled the material-icons to change color on hover */
 .projects-grid a:hover .material-icons {
     color: var(--orange-text);
     display: inline-block;
 }
-
+/* styling for footer and profile links */
 .profile {
     display: flex;
     justify-content: space-around;
@@ -162,7 +162,7 @@ footer h3 {
     max-width: auto !important;
     max-height: auto !important;
 }
-
+/* media query to make navbar and footer responsive at a smaller screen size */
 @media screen and (max-width: 500px) {
     nav, footer {
         display: flex;
