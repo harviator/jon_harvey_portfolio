@@ -168,6 +168,10 @@ footer h3 {
         display: flex;
         flex-direction: column;
     }
+    /* added margin to prevent picture being cut-off when navbar switches to column */
+    #about {
+        margin-top: 150px;
+    }
 
     .profile {
         flex-direction: column;
