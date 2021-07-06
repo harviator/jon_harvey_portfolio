@@ -1,8 +1,19 @@
-# jon_harvey_portfolio
+![MIT Badge](https://img.shields.io/badge/License-MIT-green)
+
+# Jon Harvey Portfolio
 
 ## Background
 
-Second homework assignment for UofT Bootcamp.  Below is the story and acceptance criteria for reference
+This is a homework assignment for the UofT Bootcamp.  Below is the story and acceptance criteria for reference
+
+## Table of Contents
+[User Story](#user-story)\
+[Acceptance Criteria](#acceptance-criteria)\
+[Technologies](#technologies)\
+[License](#license)\
+[Implementation](#implementation)\
+[Screen Shot](#screen-shot)\
+[Link](#link)
 
 ## User Story
 
@@ -30,6 +41,15 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
+## Technologies
+
+* HTML
+* CSS
+
+## License
+
+[MIT License](https://choosealicense.com/licenses/mit/)
+
 ## Implementation
 
 * I started with an HTML skeleton and typical top down approach
@@ -42,7 +62,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screen Shot
 
-![Getting Started](./assets/images/screen_shot.png)
+![Screen Shot](./assets/images/screen_shot.png)
 
 ## Link
 
